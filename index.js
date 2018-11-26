@@ -1,5 +1,5 @@
 "use strict"
 
 module.exports = {
-  extends: "./rules/.stylelintrc.json"
+  extends: "./rules/.stylelintrc.yml"
 }
