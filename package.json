@@ -6,9 +6,16 @@
   "keywords": [
     "stylelint"
   ],
+  "repository": {
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/BCGen/stylelint-config-bc"
+    }
+  },
   "author": "BCGen",
   "license": "MIT",
   "dependencies": {
+    "stylelint": "^9.8.0",
     "stylelint-config-standard": "^18.2.0"
   }
 }
