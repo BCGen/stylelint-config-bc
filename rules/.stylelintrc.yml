@@ -1,3 +1,8 @@
 # stylelint config standard
 # https://github.com/stylelint/stylelint-config-standard
-extends: stylelint-config-standard
+extends:
+  - stylelint-config-standard
+  - stylelint-config-recommended-scss
+
+rules:
+  font-family-no-missing-generic-family-keyword: null

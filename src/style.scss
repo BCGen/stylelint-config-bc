@@ -1,0 +1,271 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+// 色票
+$horizon: #b0e2e2;
+$babyBlue: #d8eae9;
+$aqua: #6fd8d5;
+$pink: #f2b3c3;
+$grayBlue: #23262c;
+$darkGray: #4a4a4a;
+$white: #fff;
+
+// 字體設定 (1~7 = 大~小)
+$font1: 84pt;
+$font2: 72pt;
+$font3: 60pt;
+$font4: 40pt;
+$font5: 30pt;
+$font6: 24pt;
+$font7: 20pt;
+$font8: 16pt;
+
+@mixin fontB() {
+  font-weight: bold;
+}
+
+@mixin fontM() {
+  font-weight: medium;
+}
+
+// 網頁設定
+body {
+  font-family: "Noto Sans TC";
+}
+
+//swiper
+.swiper-container {
+  width: 100%;
+  height: 760px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.page1 {
+  .navBar {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 10;
+
+    a {
+      color: $white;
+    }
+  }
+
+  .bannerContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+
+    img {
+      width: 100px;
+      height: 100px;
+    }
+
+    h1 {
+      margin: 0 auto;
+      width: 66%;
+      color: $white;
+      font-size: $font3;
+      border-bottom: 1px solid $white;
+    }
+  }
+}
+
+@mixin banner($photo) {
+  background-image: url($photo);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#bannerPhoto1 {
+  @include banner("/images/banner/adorable-blur-bookcase-261895.jpg");
+}
+
+#bannerPhoto2 {
+  @include banner("/images/banner/art-arts-and-crafts-child-159579.jpg");
+}
+
+#bannerPhoto3 {
+  @include banner("/images/banner/baby-blur-child-437747.jpg");
+}
+
+#bannerPhoto4 {
+  @include banner("/images/banner/baby-boy-child-210146.jpg");
+}
+
+#bannerPhoto5 {
+  @include banner("/images/banner/boy-chair-children-1001914.jpg");
+}
+
+#bannerPhoto6 {
+  @include banner("/images/banner/boy-child-childhood-6459.jpg");
+}
+
+#bannerPhoto7 {
+  @include banner("/images/banner/chain-daylight-fun-317262.jpg");
+}
+
+#bannerPhoto8 {
+  @include banner("/images/banner/child-creativity-education-97064.jpg");
+}
+
+#bannerPhoto9 {
+  @include banner("/images/banner/children-cute-drawing-159823.jpg");
+}
+
+#bannerPhoto10 {
+  @include banner("/images/banner/pexels-photo-256468.jpg");
+}
+
+// page1
+
+.page4BG {
+  background-color: $babyBlue;
+
+  .title {
+    padding-top: 80px;
+
+    @include fontB;
+
+    font-size: $font1;
+    line-height: 88pt;
+  }
+
+  .ER {
+    padding-top: 50px;
+    margin-right: 62px;
+  }
+
+  .ERBtn {
+    width: 270px;
+    height: 120px;
+    background-color: $white;
+    color: $aqua;
+    border: 1px solid $aqua;
+    border-radius: 10px;
+    font-size: $font5;
+  }
+
+  .pad {
+    padding-bottom: 10px;
+  }
+
+  .aquaCircle {
+    background-color: $aqua;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+  }
+
+  .blankPad {
+    padding: 40px;
+  }
+
+  .text {
+    margin: 0 20px;
+    font-size: $font6;
+  }
+
+  .contentBox {
+    border-bottom: 3px solid $white;
+    width: 212px;
+    height: 212px;
+    line-height: 106px;
+  }
+
+  .numberCircle {
+    width: 130px;
+    height: 130px;
+    background-color: $babyBlue;
+    border-radius: 50%;
+    color: $white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .number {
+    font-size: $font1;
+    color: $white;
+    position: relative;
+    top: -40%;
+  }
+
+  .aquaBG {
+    background-color: $aqua;
+    padding: 60px;
+    height: 360px;
+  }
+
+  .arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 24px solid $white;
+    margin: auto;
+    left: 2%;
+  }
+
+  .stepText {
+    width: 212px;
+    color: $white;
+    font-size: $font7;
+  }
+
+  .text-size {
+    font-size: $font2;
+    line-height: 91pt;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .formDownload {
+    width: 470px;
+    height: 221px;
+    background-color: $aqua;
+    color: $white;
+    border-radius: 10px;
+  }
+
+  .line {
+    height: 221px;
+    border: 0.5px solid $darkGray;
+    margin: 0 65px;
+  }
+
+  .aquaBTN {
+    width: 135px;
+    height: 30px;
+    background-color: $aqua;
+    color: $white;
+    border-radius: 10px;
+    margin: 8.5px 65px;
+    font-size: $font8;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

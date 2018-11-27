@@ -1,0 +1,261 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body {
+  font-family: "Noto Sans TC";
+}
+
+.swiper-container {
+  width: 100%;
+  height: 760px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.page1 .navBar {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  z-index: 10;
+}
+
+.page1 .navBar a {
+  color: #fff;
+}
+
+.page1 .bannerContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.page1 .bannerContainer img {
+  width: 100px;
+  height: 100px;
+}
+
+.page1 .bannerContainer h1 {
+  margin: 0 auto;
+  width: 66%;
+  color: #fff;
+  font-size: 60pt;
+  border-bottom: 1px solid #fff;
+}
+
+#bannerPhoto1 {
+  background-image: url("/images/banner/adorable-blur-bookcase-261895.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#bannerPhoto2 {
+  background-image: url("/images/banner/art-arts-and-crafts-child-159579.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#bannerPhoto3 {
+  background-image: url("/images/banner/baby-blur-child-437747.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#bannerPhoto4 {
+  background-image: url("/images/banner/baby-boy-child-210146.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#bannerPhoto5 {
+  background-image: url("/images/banner/boy-chair-children-1001914.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#bannerPhoto6 {
+  background-image: url("/images/banner/boy-child-childhood-6459.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#bannerPhoto7 {
+  background-image: url("/images/banner/chain-daylight-fun-317262.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#bannerPhoto8 {
+  background-image: url("/images/banner/child-creativity-education-97064.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#bannerPhoto9 {
+  background-image: url("/images/banner/children-cute-drawing-159823.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#bannerPhoto10 {
+  background-image: url("/images/banner/pexels-photo-256468.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.page4BG {
+  background-color: #d8eae9;
+}
+
+.page4BG .title {
+  padding-top: 80px;
+  font-weight: bold;
+  font-size: 84pt;
+  line-height: 88pt;
+}
+
+.page4BG .ER {
+  padding-top: 50px;
+  margin-right: 62px;
+}
+
+.page4BG .ERBtn {
+  width: 270px;
+  height: 120px;
+  background-color: #fff;
+  color: #6fd8d5;
+  border: 1px solid #6fd8d5;
+  border-radius: 10px;
+  font-size: 30pt;
+}
+
+.page4BG .pad {
+  padding-bottom: 10px;
+}
+
+.page4BG .aquaCircle {
+  background-color: #6fd8d5;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+
+.page4BG .blankPad {
+  padding: 40px;
+}
+
+.page4BG .text {
+  margin: 0 20px;
+  font-size: 24pt;
+}
+
+.page4BG .contentBox {
+  border-bottom: 3px solid #fff;
+  width: 212px;
+  height: 212px;
+  line-height: 106px;
+}
+
+.page4BG .numberCircle {
+  width: 130px;
+  height: 130px;
+  background-color: #d8eae9;
+  border-radius: 50%;
+  color: #fff;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.page4BG .number {
+  font-size: 84pt;
+  color: #fff;
+  position: relative;
+  top: -40%;
+}
+
+.page4BG .aquaBG {
+  background-color: #6fd8d5;
+  padding: 60px;
+  height: 360px;
+}
+
+.page4BG .arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 24px solid #fff;
+  margin: auto;
+  left: 2%;
+}
+
+.page4BG .stepText {
+  width: 212px;
+  color: #fff;
+  font-size: 20pt;
+}
+
+.page4BG .text-size {
+  font-size: 72pt;
+  line-height: 91pt;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.page4BG .formDownload {
+  width: 470px;
+  height: 221px;
+  background-color: #6fd8d5;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.page4BG .line {
+  height: 221px;
+  border: 0.5px solid #4a4a4a;
+  margin: 0 65px;
+}
+
+.page4BG .aquaBTN {
+  width: 135px;
+  height: 30px;
+  background-color: #6fd8d5;
+  color: #fff;
+  border-radius: 10px;
+  margin: 8.5px 65px;
+  font-size: 16pt;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
