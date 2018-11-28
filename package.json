@@ -9,7 +9,7 @@
   "repository": {
     "repository": {
       "type": "git",
-      "url": "https://github.com/BCGen/stylelint-config-bc"
+      "url": "git+https://github.com/BCGen/stylelint-config-bc.git"
     }
   },
   "author": "BCGen",
