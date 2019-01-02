@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config-bc",
+  "name": "stylelint-config-ruker",
   "version": "1.0.0",
   "description": "stylelint",
   "main": "index.js",
@@ -9,11 +9,14 @@
   "repository": {
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/BCGen/stylelint-config-bc.git"
+      "url": "git+https://github.com/BCGen/stylelint-config-ruker.git"
     }
   },
   "author": "BCGen",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BCGen/stylelint-config-ruker/issues"
+  },
   "dependencies": {
     "stylelint": "^9.8.0",
     "stylelint-config-recommended-scss": "^3.2.0",

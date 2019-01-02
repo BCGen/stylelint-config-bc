@@ -5,4 +5,5 @@ extends:
   - stylelint-config-recommended-scss
 
 rules:
+  no-descending-specificity: null
   font-family-no-missing-generic-family-keyword: null
